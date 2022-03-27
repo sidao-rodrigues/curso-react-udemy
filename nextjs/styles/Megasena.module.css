@@ -1,0 +1,49 @@
+.container_mega {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /*background-color: black;*/
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.inputs input {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.numeros {
+  background-color: black;
+  color: #FFF;
+
+  font-size: 1.6em;
+  font-weight: 700;
+
+  width: 80px;
+  height: 80px;
+
+  border-radius: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.lista_numeros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 80px;
+  gap: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
